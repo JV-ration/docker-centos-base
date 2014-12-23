@@ -1,4 +1,4 @@
-docker-centos-base
+docker-container-base
 ==================
 
-base Centos box
+A base for docker containers at JV-ration
