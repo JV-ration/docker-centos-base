@@ -4,6 +4,7 @@ MAINTAINER Viktor Sadovnikov <viktor@jv-ration.com>
 RUN apt-get update
 RUN apt-get -qqy install \
         openjdk-7-jdk \
+        sudo \
         tar \
         wget \
     && apt-get clean
