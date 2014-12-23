@@ -1,10 +1,6 @@
 FROM debian:jessie
 MAINTAINER Viktor Sadovnikov <viktor@jv-ration.com>
 
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
-RUN apt-get update
-RUN apt-get upgrade -y
-
 # Install very basic packages
 RUN yum -y install \
     sudo \
