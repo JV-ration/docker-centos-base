@@ -6,5 +6,6 @@ RUN apt-get -qqy install \
         openjdk-7-jdk \
         sudo \
         tar \
+        unzip \
         wget \
     && apt-get clean
