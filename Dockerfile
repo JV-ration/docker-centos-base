@@ -9,3 +9,5 @@ RUN apt-get -qqy install \
         unzip \
         wget \
     && apt-get clean
+
+ADD envvars.sh /etc/profile.d/envvars.sh
